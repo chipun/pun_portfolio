@@ -1,0 +1,1243 @@
+
+
+body {
+
+
+	background-image: url(../images/p6.png);
+
+
+	background-position: initial;
+
+
+	background-repeat: initial;
+
+
+	font: 14px/1.4 Helvetica, Arial, sans-serif;
+
+
+	margin: 0px;
+
+
+	padding: 0px;
+
+
+}
+
+
+h1 {
+
+
+	font-size: 30px
+
+
+}
+
+
+h3 {
+
+
+	font-family: 'GothamBoldRegular', Helvetica, Arial, San-serif;
+
+
+	font-weight: normal;
+
+
+	font-size: 30px;
+
+
+	text-transform: uppercase;
+
+
+	letter-spacing: -2px;
+
+
+}
+
+
+#header-wrap {
+
+
+	background: #000;
+
+
+	height: 70px;
+
+
+	position: fixed;
+
+
+	z-index: 200;
+
+
+	width: 100%;
+
+
+	left: 0;
+
+
+	top: 0;
+
+
+	box-shadow: 3px 4px 2px -2px gray;
+
+
+}
+
+
+#header {
+
+
+	width: 960px;
+
+
+	margin: 0 auto;
+
+
+	height: 70px;
+
+
+	position: relative;
+
+
+}
+
+
+#logo {
+
+
+	width: 110px;
+
+
+	height: 111px;
+
+
+	position: absolute;
+
+
+	background: url(../images/cpunlogo1.png) no-repeat;
+
+
+	background-size: 110px 90px;
+
+
+	left: 440px;
+
+
+}
+
+
+#header #nav {
+
+
+	list-style: none;
+
+
+	text-align: center;
+
+
+	font-size: 18px;
+
+
+}
+
+
+#header #nav li {
+
+
+	display: inline
+
+
+}
+
+
+#header #nav li a {
+
+
+	text-decoration: none;
+
+
+	color: #FFF;
+
+
+	line-height: 70px;
+
+
+	text-transform: uppercase;
+
+
+}
+
+
+#header #nav li a:hover {
+
+
+	color: #4C9ABD
+
+
+}
+
+
+#nav li {
+
+
+	margin: 0 25px 0 25px;
+
+
+}
+
+
+#nav li:nth-of-type(2) {
+
+
+	margin-right: 100px;
+
+
+}
+
+
+#nav li:nth-of-type(3) {
+
+
+	margin-left: 100px;
+
+
+}
+
+
+/*
+#nav #work-link {
+
+
+	margin-right: 100px
+
+
+}
+
+#nav #work-link {
+
+
+	margin-right: 100px
+
+
+}
+
+
+
+#nav #contact-link {
+
+
+	margin-left: 100px
+
+
+}
+
+
+#nav #about-link {
+
+
+	margin-right: 50px
+
+
+}
+
+
+#nav #blog-link {
+
+
+	margin-left: 50px
+
+
+}
+*/
+
+
+.headline {
+
+
+	/*: ;
+    font-size: 20px;
+    text-align: center;
+    width: 873px;
+    margin: 20px auto;
+    padding-bottom: 100px;
+    padding-top: 100px;*/
+
+
+}
+
+
+#page-wrap {
+
+
+	width: 960px;
+
+
+	margin: 0 auto;
+
+
+	padding-top: 75px;
+
+
+}
+
+
+#contact .left {
+
+
+	float: left;
+
+
+	width: 650px;
+
+
+}
+
+
+#contact .right {
+
+
+	float: right;
+
+
+	width: 300px;
+
+
+}
+
+
+.myButton {
+
+
+	-moz-box-shadow: inset 0px 1px 0px 0px #54a3f7;
+
+
+	-webkit-box-shadow: inset 0px 1px 0px 0px #54a3f7;
+
+
+	box-shadow: inset 0px 1px 0px 0px #54a3f7;
+
+
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #007dc1), color-stop(1, #0061a7));
+
+
+	background: -moz-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+
+
+	background: -webkit-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+
+
+	background: -o-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+
+
+	background: -ms-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+
+
+	background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+
+
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7', GradientType=0);
+
+
+	background-color: #007dc1;
+
+
+	-moz-border-radius: 3px;
+
+
+	-webkit-border-radius: 3px;
+
+
+	border-radius: 3px;
+
+
+	border: 1px solid #124d77;
+
+
+	display: inline-block;
+
+
+	cursor: pointer;
+
+
+	color: #ffffff;
+
+
+	font-family: arial;
+
+
+	font-size: 16px;
+
+
+	padding: 6px 24px;
+
+
+	text-decoration: none;
+
+
+	text-shadow: 0px 1px 0px #154682;
+
+
+}
+
+
+.myButton:hover {
+
+
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0061a7), color-stop(1, #007dc1));
+
+
+	background: -moz-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+
+
+	background: -webkit-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+
+
+	background: -o-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+
+
+	background: -ms-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+
+
+	background: linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+
+
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#0061a7', endColorstr='#007dc1', GradientType=0);
+
+
+	background-color: #0061a7;
+
+
+}
+
+
+.myButton:active {
+
+
+	position: relative;
+
+
+	top: 1px;
+
+
+}
+
+
+.depth {
+
+
+	display: block;
+
+
+	padding: 50px, 50px, 50px, 0px;
+
+
+	color: black;
+
+
+	font: bold 4em Arial, sans-serif;
+
+
+	position: relative;
+
+
+}
+
+
+.depth:before,
+
+
+.depth:after {
+
+
+	content: attr(title);
+
+
+	padding: 50px, 50px, 50px, 0px;
+
+
+	color: rgba(255, 255, 255, .1);
+
+
+	position: absolute;
+
+
+}
+
+
+.depth:before {
+
+
+	top: 1px;
+
+
+	left: 1px;
+
+
+}
+
+
+.depth:after {
+
+
+	top: 2px;
+
+
+	left: 2px;
+
+
+}
+
+
+.polaroid {
+
+
+	box-shadow: 0 4px 150px -2px gray
+
+
+}
+
+
+.hide {
+
+
+	opacity: 0
+
+
+}
+
+
+.fancy img {
+
+
+	width: 300px;
+
+
+	height: 100px;
+
+
+	box-shadow: 0 4px 50px -2px gray;
+
+
+}
+
+
+/*#work li {
+            float: left;
+            width: 232px;
+            height: 179px;
+            margin: 10px 4px;
+        }*/
+
+
+.clearfix {
+
+
+	list-style-type: none
+
+
+}
+
+
+#work li {
+
+
+	padding-bottom: 10px
+
+
+}
+
+
+#social img {
+
+
+	width: 29px;
+
+
+	height: 29px;
+
+
+}
+
+
+#social > li {
+
+
+	list-style-type: none;
+
+
+	display: inline;
+
+
+	padding: 10px;
+
+
+}
+
+
+#love > li {
+
+
+	list-style-type: none
+
+
+}
+
+
+.about {
+
+
+	background-color: #0d3a51
+
+
+}
+
+
+.banner {
+
+
+	postion: relative;
+
+
+	display: inline-block;
+
+
+	width: 100%;
+
+
+	height: auto !important;
+
+
+	background-repeat: no-repeat;
+
+
+}
+
+
+.fluid {
+
+
+	max-height: 800px;
+
+
+	background-position: center;
+
+
+	background-size: 100% 100%;
+
+
+}
+
+
+.page-wrap {
+
+
+	width: 960px;
+
+
+	margin: 0 auto;
+
+
+}
+
+
+/* Start by setting display:none to make this hidden.
+   Then we position it in relation to the viewport window
+   with position:fixed. Width, height, top and left speak
+   speak for themselves. Background we set to 80% white with
+   our animation centered, and no-repeating */
+
+
+.modal {
+
+
+	display: none;
+
+
+	position: fixed;
+
+
+	z-index: 1000;
+
+
+	top: 0;
+
+
+	left: 0;
+
+
+	height: 100%;
+
+
+	width: 100%;
+
+
+	background: rgba(255, 255, 255, .8) url('../images/loading.gif') 50% 50% no-repeat;
+
+
+}
+
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+
+
+body.loading {
+
+
+	overflow: hidden
+
+
+}
+
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+
+
+body.loading .modal {
+
+
+	display: block
+
+
+}
+
+
+.banner {
+
+
+	position: relative;
+
+
+	width: 100%;
+
+
+	overflow: auto;
+
+
+}
+
+
+.banner li {
+
+
+	list-style: none;
+
+
+	width: 300%;
+
+
+}
+
+
+.banner ul li {
+
+
+	display: block;
+
+
+	float: left;
+
+
+	width: 33%;
+
+
+	min-height: 350px;
+
+
+}
+
+
+.banner .btn {
+
+
+	display: inline-block;
+
+
+	margin: 25px 0 0;
+
+
+	padding: 9px 22px 7px;
+
+
+	clear: both;
+
+
+	color: #fff;
+
+
+	font-size: 12px;
+
+
+	font-weight: bold;
+
+
+	text-transform: uppercase;
+
+
+	text-decoration: none;
+
+
+	border: 2px solid rgba(255, 255, 255, .4);
+
+
+	border-radius: 5px;
+
+
+}
+
+
+.banner .btn:hover {
+
+
+	background: rgba(255, 255, 255, .05)
+
+
+}
+
+
+.banner .btn:active {
+
+
+	-webkit-filter: drop-shadow(0 -1px 2px rgba(0, 0, 0, .5));
+
+
+	-moz-filter: drop-shadow(0 -1px 2px rgba(0, 0, 0, .5));
+
+
+	-ms-filter: drop-shadow(0 -1px 2px rgba(0, 0, 0, .5));
+
+
+	-o-filter: drop-shadow(0 -1px 2px rgba(0, 0, 0, .5));
+
+
+	filter: drop-shadow(0 -1px 2px rgba(0, 0, 0, .5));
+
+
+}
+
+
+.banner .btn,
+
+
+.banner .dot {
+
+
+	-webkit-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .3));
+
+
+	-moz-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .3));
+
+
+	-ms-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .3));
+
+
+	-o-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .3));
+
+
+	filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .3));
+
+
+}
+
+
+.banner .dots {
+
+
+	position: absolute;
+
+
+	left: 0;
+
+
+	right: 0;
+
+
+	bottom: 20px;
+
+
+	width: 100%;
+
+
+}
+
+
+.banner .dots li {
+
+
+	display: inline-block;
+
+
+	*display: inline;
+
+
+	zoom: 1;
+
+
+	width: 10px;
+
+
+	height: 10px;
+
+
+	line-height: 10px;
+
+
+	margin: 0 4px;
+
+
+	text-indent: -999em;
+
+
+	*text-indent: 0;
+
+
+	border: 2px solid #fff;
+
+
+	border-radius: 6px;
+
+
+	cursor: pointer;
+
+
+	opacity: .4;
+
+
+	-webkit-transition: background .5s, opacity .5s;
+
+
+	-moz-transition: background .5s, opacity .5s;
+
+
+	transition: background .5s, opacity .5s;
+
+
+}
+
+
+.banner .dots li.active {
+
+
+	background: #fff;
+
+
+	opacity: 1;
+
+
+}
+
+
+.banner .arrows {
+
+
+	position: absolute;
+
+
+	bottom: 20px;
+
+
+	right: 20px;
+
+
+	color: #fff;
+
+
+}
+
+
+.banner .arrow {
+
+
+	display: inline;
+
+
+	padding-left: 10px;
+
+
+	cursor: pointer;
+
+
+}
+
+
+.clear {
+
+
+	height: 100px
+
+
+}
+
+
+.polaroid_div {
+
+
+	margin: auto 0px;
+
+
+	text-align: center;
+
+
+}
+
+
+#intro {
+
+
+	box-shadow: 0px 1px 1px 2px gray;
+
+
+	background-color: #ffffff;
+
+
+	/*    height: 700px;*/
+
+
+	background: url(../images/wood-background-floor-black.jpg) fixed;
+
+
+}
+
+
+#intro .page-wrap {
+
+
+	padding: 100px
+
+
+}
+
+
+#intro h1,
+
+
+#intro p {
+
+
+	color: #ffffff
+
+
+}
+
+
+#intro a {
+
+
+	color: #1b75bb
+
+
+}
+
+
+#resume {
+
+
+	background: url(../images/bird-background.png) repeat fixed;
+
+
+	padding: 20px 0 20px 0;
+
+
+	box-shadow: 0px 1px 1px 2px gray
+
+
+}
+
+
+#main-content {
+
+
+	margin: 0;
+
+
+	padding: 0;
+
+
+	border: 0;
+
+
+	font-size: 100%;
+
+
+	font: inherit;
+
+
+	vertical-align: baseline;
+
+
+}
+
+
+.child_section {
+
+
+	vertical-align: middle;
+
+
+	height: 400px;
+
+
+}
+
+
+.test_header {
+
+
+	color: yellow;
+
+
+	background-color: black;
+
+
+}
+
+
+#banner {
+
+
+	display: none;
+
+
+}
+
+
+#banner a:link,
+
+
+#banner a:visited {
+
+
+	color: #333
+
+
+}
+
+
+#banner a:hover,
+
+
+#banner a:active {
+
+
+	color: #9e2020
+
+
+}
+
+
+.slidesjs-container {
+
+
+	box-shadow: 0px 1px 1px 2px gray
+
+
+}
+
+
+.slidesjs-pagination {
+
+
+	margin: 6px 0 0;
+
+
+	float: right;
+
+
+	list-style: none;
+
+
+}
+
+
+.slidesjs-pagination li {
+
+
+	float: left;
+
+
+	margin: 0 1px;
+
+
+}
+
+
+.slidesjs-pagination li a {
+
+
+	display: block;
+
+
+	width: 13px;
+
+
+	height: 0;
+
+
+	padding-top: 13px;
+
+
+	background-image: url(../images/pagination.png);
+
+
+	background-position: 0 0;
+
+
+	float: left;
+
+
+	overflow: hidden;
+
+
+}
+
+
+.slidesjs-pagination li a.active,
+
+
+.slidesjs-pagination li a:hover.active {
+
+
+	background-position: 0 -13px
+
+
+}
+
+
+.slidesjs-pagination li a:hover {
+
+
+	background-position: 0 -26px
+
+
+}
+
+
+#banner .slidesjs-previous {
+
+
+	margin-top: 5px;
+
+
+	margin-right: 5px;
+
+
+	float: left;
+
+
+}
+
+
+#banner .slidesjs-next {
+
+
+	margin-top: 5px;
+
+
+	margin-right: 5px;
+
+
+	float: left;
+
+
+}
